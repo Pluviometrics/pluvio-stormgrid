@@ -83,7 +83,8 @@ SENSITIVE_FIELDS_DROP = {
     # Free-text notes
     "comments", "description",
     "acquisition comment 1", "acquisition comment 2", "acquisition comment 3",
-    "hazard", "nbc asset risk",
+    "hazard", "asset risk",
+    "nbc asset risk",  # same column under its pre-October-2026 register header
     # Audit metadata (source-system provenance, not snapshot relevant)
     "created by", "changed by",
     "date created", "date changed", "create time", "last changed time",
